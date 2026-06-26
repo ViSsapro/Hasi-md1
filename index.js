@@ -17,7 +17,7 @@ const menuCmd = require('./menu.js');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const botLogoUrl = "https://i.ibb.co/Z6gnPvV2/file-000009be47207afef1535933c3f19.png";
+const botLogoUrl = "https://i.ibb.co/271whBpp/c9d0b775835a.jpg";
 
 const shrinkmeApi = "81bd69560df8d7ed1f3042d7bed34037908d4998";
 const targetUrl = "https://youtube.com/@VimukthiThuhina";
