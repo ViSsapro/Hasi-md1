@@ -105,9 +105,6 @@ async function startThuhiMD() {
     });
 
     sock.ev.on('messages.upsert', async chatUpdate => {
-    console.log("EVENT:", chatUpdate.type);
-    console.log(chatUpdate.messages?.[0]);
-    try {
         try {
             if (chatUpdate.type!== 'notify') return;
             const mek = chatUpdate.messages[0];
